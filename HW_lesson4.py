@@ -23,9 +23,8 @@ def check_number (number: str) :  # name of function, set the variable and varia
     else :
         print ("Number must to include only digits!")
 
-check_number("1234567890")
-check_number("123456")
-check_number("qdn128475a")
+number = input("Input your phone number: \n") # ask to enter user phone number
+check_number(number)                          # call the function to check the entered number
 
 
 
@@ -51,6 +50,7 @@ user_input = input("Please, input your name\n")  # ask name from user
         print("Yes! Name is correct!")  # if correct
     else:
         print("Input the correct name!")  # if wrong
+
 
 
 
