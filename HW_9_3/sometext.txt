@@ -1,0 +1,138 @@
+Task 1
+
+The greeting program.
+
+Make a program that has your name and the current day of the week stored as separate variables and then prints a message like this:
+
+     "Good day <name>! <day> is a perfect day to learn some python."
+Note that  <name> and <day> are predefined variables in source code.
+
+An additional bonus will be to use different string formatting methods for constructing result string.
+
+ 
+
+Task 2
+
+Manipulate strings.
+
+Save your first and last name as separate variables, then use string concatenation to add them together with a white space in between and print a greeting.
+
+ 
+
+Task 3
+
+Using python as a calculator.
+
+Make a program with 2 numbers saved in separate variables a and b, then print the result for each of the following: 
+
+Addition
+Subtraction
+Division
+Multiplication
+Exponent (Power)
+Modulus
+Floor division
+Task 1
+
+String manipulation
+
+Write a Python program to get a string made of the first 2 and the last 2 chars from a given string. If the string length is less than 2, return instead of the empty string.
+
+Sample String: 'helloworld'
+
+Expected Result : 'held'
+
+Sample String: 'my'
+
+Expected Result : 'mymy'
+
+Sample String: 'x'
+
+Expected Result: Empty String
+
+Tips:
+
+Use built-in function len() on an input string
+Use positive indexing to get the first characters of a string and negative indexing to get the last characters
+ 
+
+Task 2
+
+The valid phone number program.
+
+Make a program that checks if a string is in the right format for a phone number. The program should check that the string contains only numerical characters and is only 10 characters long. Print a suitable message depending on the outcome of the string evaluation.
+
+ 
+
+Task 3
+
+The math quiz program.
+
+Write a program that asks the answer for a mathematical expression, checks whether the user is right or wrong, and then responds with a message accordingly.
+
+ 
+
+Task 4
+
+The name check.
+
+Write a program that has a variable with your name stored (in lowercase) and then asks for your name as input. The program should check if your input is equal to the stored name even if the given name has another case, e.g., if your input is “Anton” and the stored name is “anton”, it should return True.
+
+ 
+Task 1
+
+The Guessing Game.
+
+Write a program that generates a random number between 1 and 10 and lets the user guess what number was generated. The result should be sent back to the user via a print statement.
+
+ 
+
+Task 2
+
+The birthday greeting program.
+
+Write a program that takes your name as input, and then your age as input and greets you with the following:
+
+“Hello <name>, on your next birthday you’ll be <age+1> years”   
+
+ 
+
+Task 3
+
+Words combination
+
+Create a program that reads an input string and then creates and prints 5 random strings from characters of the input string.
+
+For example, the program obtained the word ‘hello’, so it should print 5 random strings(words) that combine characters 
+
+'h', 'e', 'l', 'l', 'o' -> 'hlelo', 'olelh', 'loleh' …
+Tips: Use random module to get random char from string)
+
+ 
+Task 1
+
+The greatest number
+
+Write a Python program to get the largest number from a list of random numbers with the length of 10
+
+Constraints: use only while loop and random module to generate numbers
+
+ 
+
+Task 2
+
+Exclusive common numbers.
+
+Generate 2 lists with the length of 10 with random integers from 1 to 10, and make a third list containing the common integers between the 2 initial lists without any duplicates.
+
+Constraints: use only while loop and random module to generate numbers
+
+ 
+
+Task 3
+
+Extracting numbers.
+
+Make a list that contains all integers from 1 to 100, then find all integers from the list that are divisible by 7 but not a multiple of 5, and store them in a separate list. Finally, print the list.
+
+Constraint: use only while loop for iteration
