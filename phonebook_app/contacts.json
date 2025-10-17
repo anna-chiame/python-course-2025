@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "phone_number": "0501234567",
+      "first_name": "Іван",
+      "last_name": "Петренко",
+      "city": "Київ"
+    },
+    {
+      "phone_number": "0671112233",
+      "first_name": "Олена",
+      "last_name": "Шевченко",
+      "city": "Львів"
+    },
+    {
+      "phone_number": "0661234500",
+      "first_name": "Марія",
+      "last_name": "Іванова",
+      "city": "Харків"
+    },
+    {
+      "first_name": "Petro",
+      "last_name": "Nepetro",
+      "phone_number": "9874652103",
+      "city": "Lviv"
+    }
+  ]
+}
