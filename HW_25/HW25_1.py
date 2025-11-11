@@ -102,7 +102,7 @@ class UnsortedList:
         self._length += 1
 
         # вставка на початку
-        if pos == 0:
+        if ind == 0:
             # новий вузол вказує на стару голову.
             new_node.next = self.head
             # новий вузол стає новою Головою.
@@ -148,3 +148,4 @@ class UnsortedList:
             current_ind += 1
 
         return new_list  
+
